@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String[] args) {
+        var dog = 10;
+        var cat = 20;
+        var paper = 763789;
         Object var;
-        var dog = 10-3.5;
-        var cat = 20-1.6;
-        var paper = 763789-7639;
+        dog=dog+4;
+        cat=cat+4;
+        paper=paper+4;
         System.out.println("кошка "+cat);
         System.out.println("собака "+dog);
-        System.out.println("бумага "+paper);
+        System.out.println("бумага "+paper);}
 
-    }
 
 }
