@@ -1,3 +1,5 @@
+import static java.lang.Math.abs;
+
 public class Main {
     public static void main(String[] args) {
                 Object var;
@@ -42,9 +44,14 @@ public class Main {
         System.out.println("Задание 6");
         var fighter1=78.2;
         var fighter2=82.7;
-        System.out.println("общая масса"+(fighter1+fighter2));
-        System.out.println("разница масс"+(fighter2-fighter1));
+        var SUM=fighter2+fighter1;
+        var DIF=abs(fighter1-fighter2);
+        System.out.println("общая масса "+SUM+"кг");
+        System.out.println("разница масс "+DIF+"кг");
+        System.out.println("Задание 7");
+       var div=fighter2%fighter1;
+        System.out.println("Остаток= "+div);
+        };
     }
 
 
-}
