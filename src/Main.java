@@ -2,7 +2,7 @@ import static java.lang.Math.abs;
 
 public class Main {
     public static void main(String[] args) {
-        Object var;
+
         var dog = 10.0;
         var cat = 20.0;
         var paper = 763789;
