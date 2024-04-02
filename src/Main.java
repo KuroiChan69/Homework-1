@@ -54,7 +54,7 @@ public class Main {
         var wholeTime=640;
         var personalTimeLimit=8;
         var personalNum=wholeTime/personalTimeLimit;
-System.out.println("Всего в компании работает "+personalNum+" человек");
+System.out.println("Всего в компании работает "+personalNum+" человек, и навсех отведено "+wholeTime+" часов");
         personalNum=personalNum+94;
 System.out.println("Если в компании работает "+personalNum+" сотрудника,то всего "+(personalTimeLimit*personalNum)+" часов нужно выделить на вcех");
     }
