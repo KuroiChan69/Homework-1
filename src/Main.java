@@ -51,12 +51,12 @@ public class Main {
         var div = fighter2 % fighter1;
         System.out.println("Остаток, он же разница масс= " + div);
         System.out.println("Задание 8");
-        var WholeTime=640;
-        var PersonalTimeLimit=8;
-        var PersonalNum=WholeTime/PersonalTimeLimit;
-System.out.println("Всего в компании работает "+PersonalNum+" человек");
-        PersonalNum=PersonalNum+94;
-System.out.println("Если в компании работает "+PersonalNum+" сотрудника,то всего "+(PersonalTimeLimit*PersonalNum)+" часов нужно выделить на вcех");
+        var wholeTime=640;
+        var personalTimeLimit=8;
+        var personalNum=wholeTime/personalTimeLimit;
+System.out.println("Всего в компании работает "+personalNum+" человек");
+        personalNum=personalNum+94;
+System.out.println("Если в компании работает "+personalNum+" сотрудника,то всего "+(personalTimeLimit*personalNum)+" часов нужно выделить на вcех");
     }
     }
 
