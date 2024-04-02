@@ -6,9 +6,9 @@ public class Main {
         var cat = 20f;
         var paper = 763789;
         System.out.println("Задание 1");
-        System.out.println("кошка " + cat);
-        System.out.println("собака " + dog);
-        System.out.println("бумага " + paper);
+        System.out.println(" кошка " + cat);
+        System.out.println(" собака " + dog);
+        System.out.println(" бумага " + paper);
         var a = 4;
         dog += a;
         cat += a;
