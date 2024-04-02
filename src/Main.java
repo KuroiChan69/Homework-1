@@ -59,5 +59,3 @@ System.out.println("Всего в компании работает "+personalNu
 System.out.println("Если в компании работает "+personalNum+" сотрудника,то всего "+(personalTimeLimit*personalNum)+" часов нужно выделить на вcех");
     }
     }
-
-
