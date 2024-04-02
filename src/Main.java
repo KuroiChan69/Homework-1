@@ -1,5 +1,61 @@
+import static java.lang.Math.abs;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет мир!");
+        var dog = 10f;
+        var cat = 20f;
+        var paper = 763789;
+        System.out.println("Задание 1");
+        System.out.println(" кошка " + cat);
+        System.out.println(" собака " + dog);
+        System.out.println(" бумага " + paper);
+        var a = 4;
+        dog += a;
+        cat += a;
+        paper +=a;
+        System.out.println("Задание 2");
+        System.out.println("кошка +4 " + cat);
+        System.out.println("собака +4" + dog);
+        System.out.println("бумага +4" + paper);
+        dog -=3.5f;
+        cat -=1.6f;
+        paper -=7639;
+        System.out.println("Задание 3");
+        System.out.println("у кошки отняли " + cat);
+        System.out.println("у собаки отняли " + dog);
+        System.out.println("из бумаги вычли " + paper);
+        var friend = 19f;
+        System.out.println("Задание 4");
+        System.out.println(friend);
+        friend +=2;
+        System.out.println(friend);
+        friend /=7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println("Задание 5");
+        System.out.println("лягушка" + frog);
+        frog *=10;
+        System.out.println("умножилии" + frog);
+        frog /=3.5;
+        System.out.println("поделили" + frog);
+        frog +=4;
+        System.out.println("добавили 4 " + frog);
+        System.out.println("Задание 6");
+        var fighter1 = 78.2;
+        var fighter2 = 82.7;
+        var sum = fighter2 + fighter1;
+        var dif = abs(fighter1 - fighter2);
+        System.out.println("общая масса " + sum + "кг");
+        System.out.println("разница масс " + dif + "кг");
+        System.out.println("Задание 7");
+        var div = fighter2 % fighter1;
+        System.out.println("Остаток, он же разница масс= " + div);
+        System.out.println("Задание 8");
+        var wholeTime=640;
+        var personalTimeLimit=8;
+        var personalNum=wholeTime/personalTimeLimit;
+System.out.println("Всего в компании работает "+personalNum+" человек, и на всех отведено "+wholeTime+" часов");
+        personalNum=personalNum+94;
+System.out.println("Если в компании работает "+personalNum+" сотрудника,то "+(personalTimeLimit*personalNum)+" часов нужно выделить на вcех");
     }
-}
+    }
