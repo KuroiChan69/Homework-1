@@ -149,7 +149,9 @@ System.out.println("   Задача 5");
                      short var2g=500;
                      int daysToSlimVar1=needToSlimKg*1000/var1g;
                      int daysToSlimVar2=needToSlimKg*1000/var2g;
+                     int midDaysNeeded=(daysToSlimVar1+daysToSlimVar2)/2;
                                System.out.println("Если будет худеть первым способом, то сбросит 7кг за"+daysToSlimVar1+
                                                 "дней. А если вторым, тогда, за "+daysToSlimVar2+"дней");
+                               System.out.println("В среднем, может скинуть 7 кг за"+midDaysNeeded+" день.");
     }
     }
