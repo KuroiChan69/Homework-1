@@ -142,6 +142,7 @@ System.out.println("   Задача 5");
                                     float recipe=5*bananaUnitWeightGramms+200*milkUnitWeightGrammsPerMl+2*iceCreamUnitWeightGramms+4*eggUnitWeightGramms;
                                              System.out.println("Весь завтрак весит"+recipe+"грамм.");
                                              System.out.println("Ну или "+recipe/1000+" килограмма.");
+
         System.out.println(" ");
         System.out.println("   Задача 7");
                      int needToSlimKg=7;
@@ -153,5 +154,20 @@ System.out.println("   Задача 5");
                                System.out.println("Если будет худеть первым способом, то сбросит 7кг за"+daysToSlimVar1+
                                                 "дней. А если вторым, тогда, за "+daysToSlimVar2+"дней");
                                System.out.println("В среднем, может скинуть 7 кг за"+midDaysNeeded+" день.");
+
+        System.out.println(" ");
+        System.out.println("   Задача 8");
+                        float mashaEarns=67_760f;
+                        float denisEarns=83690f;
+                        float christinaEarns=76_230f;
+                                   float mashaIncrease=mashaEarns*0.1f;
+                                   float denisIncrease=denisEarns*0.1f;
+                                   float christinaIncrease=christinaEarns*0.1f;
+                                    System.out.println("Маша теперь получает "+(int)(mashaEarns+mashaIncrease)+" рублей");
+                                    System.out.println("   Годовой Маши доход вырос на "+(int)mashaIncrease*12+" рублей.");
+                                    System.out.println("Денис теперь получает "+(int)(denisEarns+denisIncrease)+" рублей");
+                                    System.out.println("   Годовой доход Дениса вырос на "+(int)denisIncrease*12+" рублей.");
+                                    System.out.println(" Кристина теперь получает "+(int)(christinaEarns+christinaIncrease)+" рублей");
+                                    System.out.println("   Годовой доход кристины вырос на "+(int)christinaIncrease*12+" рублей");
     }
     }
